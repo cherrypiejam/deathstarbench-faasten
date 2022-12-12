@@ -6,6 +6,6 @@ Ported from [DeathStarFaaS](https://github.com/LedgeDash/DeathStarFaaS).
 
 ## TODOS
 
-- [ ] Port the social network service
+- [x] Port the social network service
 
 
