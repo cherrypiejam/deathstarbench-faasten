@@ -1,0 +1,6 @@
+out
+storage/*
+output/*
+__pycache__
+output.ext2
+python3.ext4
