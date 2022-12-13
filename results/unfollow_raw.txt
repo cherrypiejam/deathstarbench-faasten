@@ -1,0 +1,53 @@
+[1] 620763
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:20:01.732527\", \"end\": \"2022-12-13 07:20:01.739828\", \"duration\": 7376282}") }
+2022-12-13 02:20:01.758240
+2022-12-13 02:20:01.779759
+[1]+  Done                    ./now.sh
+
+[1] 620785
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:20:37.013827\", \"end\": \"2022-12-13 07:20:37.022517\", \"duration\": 8765790}") }
+2022-12-13 02:20:37.039807
+2022-12-13 02:20:37.062270
+[1]+  Done                    ./now.sh
+
+[1] 620808
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:21:27.288565\", \"end\": \"2022-12-13 07:21:27.297039\", \"duration\": 8549713}") }
+2022-12-13 02:21:27.315138
+2022-12-13 02:21:27.337535
+[1]+  Done                    ./now.sh
+
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:21:55.503233\", \"end\": \"2022-12-13 07:21:55.511067\", \"duration\": 7906339}") }
+2022-12-13 02:21:55.530202
+2022-12-13 02:21:55.551162
+[1]+  Done                    ./now.sh
+
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:22:25.600526\", \"end\": \"2022-12-13 07:22:25.608734\", \"duration\": 8283122}") }
+2022-12-13 02:22:25.627368
+2022-12-13 02:22:25.649342
+[1]+  Done                    ./now.sh
+
+[1] 620886
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:23:04.018198\", \"end\": \"2022-12-13 07:23:04.026321\", \"duration\": 8199422}") }
+2022-12-13 02:23:04.045451
+2022-12-13 02:23:04.067154
+[1]+  Done                    ./now.sh
+
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:23:37.892184\", \"end\": \"2022-12-13 07:23:37.900008\", \"duration\": 7884856}") }
+2022-12-13 02:23:37.919881
+2022-12-13 02:23:37.940942
+[1]+  Done                    ./now.sh
+
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:23:40.489991\", \"end\": \"2022-12-13 07:23:40.497928\", \"duration\": 7983530}") }
+2022-12-13 02:23:40.517399
+2022-12-13 02:23:40.538756
+[1]+  Done                    ./now.sh
+
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:23:43.423507\", \"end\": \"2022-12-13 07:23:43.431836\", \"duration\": 8394003}") }
+2022-12-13 02:23:43.451193
+2022-12-13 02:23:43.472886
+[1]+  Done                    ./now.sh
+
+Response { status: SentToVM("{\"status\": \"success\", \"func\": \"social-graph-unfollow\", \"begin\": \"2022-12-13 07:23:46.241156\", \"end\": \"2022-12-13 07:23:46.248651\", \"duration\": 7542944}") }
+2022-12-13 02:23:46.268762
+2022-12-13 02:23:46.289554
+[1]+  Done                    ./now.sh

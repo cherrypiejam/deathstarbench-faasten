@@ -1,0 +1,159 @@
+
+2022-12-13 01:57:38.727363
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:6:57:38:196467225798269162045606641836558289868\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 06:57:38.697951\", \"end\": \"2022-12-13 06:57:38.741396\", \"duration\": 43527387}") }
+[1]+  Done                    ./now.sh
+2022-12-13 01:57:38.785773
+
+[2022-12-13T06:57:38Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:6:57:38:196467225798269162045606641836558289868", "func": "post-frontend", "begin": "2022-12-13 06:57:38.697951", "end": "2022-12-13 06:57:38.741396", "duration": 43527387}
+[2022-12-13T06:57:38Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 06:57:38.736124", "end": "2022-12-13 06:57:38.744795", "duration": 8762881}
+[2022-12-13T06:57:38Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 06:57:38.738437", "end": "2022-12-13 06:57:38.747742", "duration": 9422717}
+[2022-12-13T06:57:38Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 06:57:38.741699", "end": "2022-12-13 06:57:38.751258", "duration": 9657549}
+[2022-12-13T06:57:38Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 06:57:38.746409", "end": "2022-12-13 06:57:38.754946", "duration": 8651913}
+[2022-12-13T06:57:38Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 06:57:38.747248", "end": "2022-12-13 06:57:38.756051", "duration": 8919213}
+[2022-12-13T06:57:38Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 06:57:38.751664", "end": "2022-12-13 06:57:38.762511", "duration": 10946044}
+
+===============
+
+2022-12-13 02:06:01.154351
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:7:6:1:112983315415566548845087287121433558564\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 07:06:01.122725\", \"end\": \"2022-12-13 07:06:01.170273\", \"duration\": 47641227}") }
+[1]+  Done                    ./now.sh
+2022-12-13 02:06:01.216828
+
+[2022-12-13T07:06:01Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:7:6:1:112983315415566548845087287121433558564", "func": "post-frontend", "begin": "2022-12-13 07:06:01.122725", "end": "2022-12-13 07:06:01.170273", "duration": 47641227}
+[2022-12-13T07:06:01Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 07:06:01.164827", "end": "2022-12-13 07:06:01.174362", "duration": 9644565}
+[2022-12-13T07:06:01Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 07:06:01.167084", "end": "2022-12-13 07:06:01.177263", "duration": 10270450}
+[2022-12-13T07:06:01Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 07:06:01.170521", "end": "2022-12-13 07:06:01.180359", "duration": 9927162}
+[2022-12-13T07:06:01Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 07:06:01.175449", "end": "2022-12-13 07:06:01.183766", "duration": 8424035}
+[2022-12-13T07:06:01Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 07:06:01.176356", "end": "2022-12-13 07:06:01.186921", "duration": 10682692}
+[2022-12-13T07:06:01Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 07:06:01.180944", "end": "2022-12-13 07:06:01.189921", "duration": 9066729}
+
+============
+
+2022-12-13 02:07:07.813524
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:7:7:7:224082669052052626772164543445644595005\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 07:07:07.781782\", \"end\": \"2022-12-13 07:07:07.826382\", \"duration\": 44681908}") }
+[1]+  Done                    ./now.sh
+2022-12-13 02:07:07.872946
+
+
+[2022-12-13T07:07:07Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:7:7:7:224082669052052626772164543445644595005", "func": "post-frontend", "begin": "2022-12-13 07:07:07.781782", "end": "2022-12-13 07:07:07.826382", "duration": 44681908}
+[2022-12-13T07:07:07Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 07:07:07.820950", "end": "2022-12-13 07:07:07.830873", "duration": 10014183}
+[2022-12-13T07:07:07Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 07:07:07.823765", "end": "2022-12-13 07:07:07.833964", "duration": 10312055}
+[2022-12-13T07:07:07Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 07:07:07.826700", "end": "2022-12-13 07:07:07.837486", "duration": 10883517}
+[2022-12-13T07:07:07Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 07:07:07.832137", "end": "2022-12-13 07:07:07.841539", "duration": 9504058}
+[2022-12-13T07:07:07Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 07:07:07.833702", "end": "2022-12-13 07:07:07.844713", "duration": 11111239}
+[2022-12-13T07:07:07Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 07:07:07.837737", "end": "2022-12-13 07:07:07.846208", "duration": 8553964}
+
+
+===================
+
+2022-12-13 02:08:28.142094
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:7:8:28:169005166456178653428598635414869269720\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 07:08:28.109956\", \"end\": \"2022-12-13 07:08:28.155806\", \"duration\": 45932956}") }
+[1]+  Done                    ./now.sh
+2022-12-13 02:08:28.204096
+
+
+[2022-12-13T07:08:28Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:7:8:28:169005166456178653428598635414869269720", "func": "post-frontend", "begin": "2022-12-13 07:08:28.109956", "end": "2022-12-13 07:08:28.155806", "duration": 45932956}
+[2022-12-13T07:08:28Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 07:08:28.150879", "end": "2022-12-13 07:08:28.160138", "duration": 9379086}
+[2022-12-13T07:08:28Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 07:08:28.152916", "end": "2022-12-13 07:08:28.162777", "duration": 9970878}
+[2022-12-13T07:08:28Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 07:08:28.156306", "end": "2022-12-13 07:08:28.166769", "duration": 10582010}
+[2022-12-13T07:08:28Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 07:08:28.161185", "end": "2022-12-13 07:08:28.172294", "duration": 11213858}
+[2022-12-13T07:08:28Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 07:08:28.163114", "end": "2022-12-13 07:08:28.173506", "duration": 10499952}
+[2022-12-13T07:08:28Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 07:08:28.167339", "end": "2022-12-13 07:08:28.176979", "duration": 9803618}
+
+
+=====================
+
+2022-12-13 02:09:41.717051
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:7:9:41:200305335082262385832612302245507853787\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 07:09:41.684453\", \"end\": \"2022-12-13 07:09:41.728787\", \"duration\": 44417792}") }
+[1]+  Done                    ./now.sh
+2022-12-13 02:09:41.777032
+
+
+[2022-12-13T07:09:41Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:7:9:41:200305335082262385832612302245507853787", "func": "post-frontend", "begin": "2022-12-13 07:09:41.684453", "end": "2022-12-13 07:09:41.728787", "duration": 44417792}
+[2022-12-13T07:09:41Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 07:09:41.723337", "end": "2022-12-13 07:09:41.734179", "duration": 10936562}
+[2022-12-13T07:09:41Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 07:09:41.725779", "end": "2022-12-13 07:09:41.735282", "duration": 9601166}
+[2022-12-13T07:09:41Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 07:09:41.729387", "end": "2022-12-13 07:09:41.738659", "duration": 9351491}
+[2022-12-13T07:09:41Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 07:09:41.734312", "end": "2022-12-13 07:09:41.742541", "duration": 8372809}
+[2022-12-13T07:09:41Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 07:09:41.735106", "end": "2022-12-13 07:09:41.746010", "duration": 11003432}
+[2022-12-13T07:09:41Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 07:09:41.739030", "end": "2022-12-13 07:09:41.748026", "duration": 9077542}
+
+
+=========================
+
+2022-12-13 02:10:31.520951
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:7:10:31:209113490106068565224274713619518673279\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 07:10:31.488108\", \"end\": \"2022-12-13 07:10:31.534746\", \"duration\": 46720827}") }
+[1]+  Done                    ./now.sh
+2022-12-13 02:10:31.584149
+
+[2022-12-13T07:10:31Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:7:10:31:209113490106068565224274713619518673279", "func": "post-frontend", "begin": "2022-12-13 07:10:31.488108", "end": "2022-12-13 07:10:31.534746", "duration": 46720827}
+[2022-12-13T07:10:31Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 07:10:31.529717", "end": "2022-12-13 07:10:31.539405", "duration": 9787436}
+[2022-12-13T07:10:31Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 07:10:31.531965", "end": "2022-12-13 07:10:31.542082", "duration": 10234373}
+[2022-12-13T07:10:31Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 07:10:31.535299", "end": "2022-12-13 07:10:31.546022", "duration": 10845249}
+[2022-12-13T07:10:31Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 07:10:31.540083", "end": "2022-12-13 07:10:31.549836", "duration": 9876641}
+[2022-12-13T07:10:31Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 07:10:31.541977", "end": "2022-12-13 07:10:31.553195", "duration": 11315705}
+[2022-12-13T07:10:31Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 07:10:31.546285", "end": "2022-12-13 07:10:31.554917", "duration": 8729906}
+
+
+=======================
+
+2022-12-13 02:11:59.109698
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:7:11:59:64435592615743758820270235525688134053\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 07:11:59.076538\", \"end\": \"2022-12-13 07:11:59.122823\", \"duration\": 46368463}") }
+[1]+  Done                    ./now.sh
+2022-12-13 02:11:59.173260
+
+[2022-12-13T07:11:59Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:7:11:59:64435592615743758820270235525688134053", "func": "post-frontend", "begin": "2022-12-13 07:11:59.076538", "end": "2022-12-13 07:11:59.122823", "duration": 46368463}
+[2022-12-13T07:11:59Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 07:11:59.117464", "end": "2022-12-13 07:11:59.127104", "duration": 9747556}
+[2022-12-13T07:11:59Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 07:11:59.119933", "end": "2022-12-13 07:11:59.129650", "duration": 9817050}
+[2022-12-13T07:11:59Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 07:11:59.123054", "end": "2022-12-13 07:11:59.133703", "duration": 10768008}
+[2022-12-13T07:11:59Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 07:11:59.128108", "end": "2022-12-13 07:11:59.138073", "duration": 10070254}
+[2022-12-13T07:11:59Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 07:11:59.130143", "end": "2022-12-13 07:11:59.141555", "duration": 11519065}
+[2022-12-13T07:11:59Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 07:11:59.134100", "end": "2022-12-13 07:11:59.143789", "duration": 9814780}
+
+
+=================================
+
+[1] 620569
+2022-12-13 02:13:17.637751
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:7:13:17:57655944137606230131086459467987339233\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 07:13:17.603630\", \"end\": \"2022-12-13 07:13:17.647379\", \"duration\": 43844119}") }
+[1]+  Done                    ./now.sh
+2022-12-13 02:13:17.696125
+
+[2022-12-13T07:13:17Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:7:13:17:57655944137606230131086459467987339233", "func": "post-frontend", "begin": "2022-12-13 07:13:17.603630", "end": "2022-12-13 07:13:17.647379", "duration": 43844119}
+[2022-12-13T07:13:17Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 07:13:17.641550", "end": "2022-12-13 07:13:17.650249", "duration": 8814474}
+[2022-12-13T07:13:17Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 07:13:17.644200", "end": "2022-12-13 07:13:17.654508", "duration": 10407679}
+[2022-12-13T07:13:17Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 07:13:17.647764", "end": "2022-12-13 07:13:17.657049", "duration": 9392932}
+[2022-12-13T07:13:17Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 07:13:17.652620", "end": "2022-12-13 07:13:17.663788", "duration": 11270831}
+[2022-12-13T07:13:17Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 07:13:17.653495", "end": "2022-12-13 07:13:17.663779", "duration": 10449937}
+[2022-12-13T07:13:17Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 07:13:17.657437", "end": "2022-12-13 07:13:17.667481", "duration": 10126322}
+
+
+================================
+
+2022-12-13 02:14:10.327165
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:7:14:10:145529680597004022588283888733858646635\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 07:14:10.293387\", \"end\": \"2022-12-13 07:14:10.340045\", \"duration\": 46750775}") }
+[1]+  Done                    ./now.sh
+2022-12-13 02:14:10.389587
+
+[2022-12-13T07:14:10Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:7:14:10:145529680597004022588283888733858646635", "func": "post-frontend", "begin": "2022-12-13 07:14:10.293387", "end": "2022-12-13 07:14:10.340045", "duration": 46750775}
+[2022-12-13T07:14:10Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 07:14:10.334075", "end": "2022-12-13 07:14:10.344297", "duration": 10332008}
+[2022-12-13T07:14:10Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 07:14:10.336715", "end": "2022-12-13 07:14:10.347781", "duration": 11174947}
+[2022-12-13T07:14:10Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 07:14:10.340732", "end": "2022-12-13 07:14:10.351694", "duration": 11091955}
+[2022-12-13T07:14:10Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 07:14:10.345878", "end": "2022-12-13 07:14:10.356080", "duration": 10305458}
+[2022-12-13T07:14:10Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 07:14:10.347446", "end": "2022-12-13 07:14:10.358051", "duration": 10707825}
+[2022-12-13T07:14:10Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 07:14:10.352165", "end": "2022-12-13 07:14:10.362940", "duration": 10875157}
+
+
+================================
+
+2022-12-13 02:15:26.472360
+Response { status: SentToVM("{\"status\": \"success\", \"post_path\": \":home:T,alice/app/post:post:0:2022:12:13:7:15:26:71282865410823788690219080901285856053\", \"func\": \"post-frontend\", \"begin\": \"2022-12-13 07:15:26.438113\", \"end\": \"2022-12-13 07:15:26.485154\", \"duration\": 47123390}") }
+[1]+  Done                    ./now.sh
+2022-12-13 02:15:26.535298
+
+[2022-12-13T07:15:26Z DEBUG snapfaas::vm] function response: {"status": "success", "post_path": ":home:T,alice/app/post:post:0:2022:12:13:7:15:26:71282865410823788690219080901285856053", "func": "post-frontend", "begin": "2022-12-13 07:15:26.438113", "end": "2022-12-13 07:15:26.485154", "duration": 47123390}
+[2022-12-13T07:15:26Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-creator", "begin": "2022-12-13 07:15:26.479632", "end": "2022-12-13 07:15:26.490002", "duration": 10495410}
+[2022-12-13T07:15:26Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-media", "begin": "2022-12-13 07:15:26.482289", "end": "2022-12-13 07:15:26.492883", "duration": 10694361}
+[2022-12-13T07:15:26Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "text-upload-text", "begin": "2022-12-13 07:15:26.485425", "end": "2022-12-13 07:15:26.496132", "duration": 10831026}
+[2022-12-13T07:15:26Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-text", "begin": "2022-12-13 07:15:26.490067", "end": "2022-12-13 07:15:26.500959", "duration": 10999195}
+[2022-12-13T07:15:26Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-user-mentions", "begin": "2022-12-13 07:15:26.491708", "end": "2022-12-13 07:15:26.502273", "duration": 10663298}
+[2022-12-13T07:15:26Z DEBUG snapfaas::vm] function response: {"status": "success", "func": "post-upload-urls", "begin": "2022-12-13 07:15:26.496480", "end": "2022-12-13 07:15:26.506081", "duration": 9682058}
