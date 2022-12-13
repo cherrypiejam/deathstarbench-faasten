@@ -55,6 +55,7 @@ def handle(req, syscall):
         on error, return {"status": "ComposePostFrontError", "errors": [errors from
         each function call]}
     """
+    begin = datetime.now()
 
     if ('username'   not in req or
         'user_id'    not in req or
@@ -101,24 +102,10 @@ def handle(req, syscall):
     if not ok:
         return {"status":  "ComposePostFrontError",
                 "message": "Fail to invoke functions"}
+
+    end = datetime.now()
     return {"status":   "success",
-            "post_path": post_path}
-
-    #  futures = []
-    #  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
-        #  futures.append(executor.submit(upload_creator,
-            #  post_info, user_id, req['username'], syscall))
-        #  futures.append(executor.submit(upload_media,
-            #  post_info, user_id, req['media_type'], req['media_id'], syscall))
-        #  futures.append(executor.submit(upload_text,
-            #  post_info, user_id, req['text'], syscall))
-
-        #  # Results only give if functions are successfully invoked
-        #  results = [f.result() for f in concurrent.futures.as_completed(futures)]
-
-        #  if not all(results):
-            #  return {"status":  "ComposePostFrontError",
-                    #  "message": "Fail to invoke functions"}
-
-        #  return {"status":   "success",
-                #  "post_path": post_path}
+            "post_path": post_path,
+            "func":      "post-frontend",
+            "begin":     str(begin),
+            "end":       str(end)}

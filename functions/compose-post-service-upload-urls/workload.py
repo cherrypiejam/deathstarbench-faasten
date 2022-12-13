@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 import traceback
 
 def handle(req, syscall):
@@ -12,6 +13,7 @@ def handle(req, syscall):
     Return:
 
     """
+    begin = datetime.now()
 
     if ('urls'      not in req or
         'user_id'   not in req or
@@ -32,4 +34,8 @@ def handle(req, syscall):
                 "message": "Fail to upload urls",
                 "traceback": traceback.format_exc()}
 
-    return {"status":"success"}
+    end = datetime.now()
+    return {"status":"success",
+            "func":  "post-upload-urls",
+            "begin": str(begin),
+            "end":   str(end)}

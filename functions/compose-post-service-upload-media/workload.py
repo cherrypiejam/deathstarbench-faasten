@@ -1,4 +1,5 @@
 import json, os, sys
+from datetime import datetime
 import traceback
 
 def handle(req, syscall):
@@ -13,6 +14,7 @@ def handle(req, syscall):
     Return:
 
     """
+    begin = datetime.now()
 
     if ('media_type' not in req or
         'media_id'   not in req or
@@ -38,4 +40,8 @@ def handle(req, syscall):
                 "message": "Fail to upload media",
                 "traceback": traceback.format_exc()}
 
-    return {"status":"success"}
+    end = datetime.now()
+    return {"status":"success",
+            "func":  "post-upload-media",
+            "begin": str(begin),
+            "end":   str(end)}

@@ -10,6 +10,7 @@ def handle(req, syscall):
         user_id
         followee_id
     """
+    begin = datetime.now()
 
     if ('user_id'     not in req or
         'followee_id' not in req):
@@ -38,4 +39,8 @@ def handle(req, syscall):
         return {"status":  "UnfollowError",
                 "message": "Failed to unfollow"}
 
-    return {"status": "success"}
+    end = datetime.now()
+    return {"status":"success",
+            "func":  "social-graph-unfollow",
+            "begin": str(begin),
+            "end":   str(end)}

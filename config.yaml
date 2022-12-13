@@ -11,14 +11,14 @@ functions:
     vcpus: 1
     memory: 128
     concurrency_limit: 600
-    cmdline: "console=ttyS0"
+    # cmdline: "console=ttyS0"
   social-graph-unfollow:
     runtimefs: "python3.ext4"
     appfs: "social-graph-unfollow.ext2"
     vcpus: 1
     memory: 128
     concurrency_limit: 600
-    cmdline: "console=ttyS0"
+    # cmdline: "console=ttyS0"
   compose-post-frontend:
     runtimefs: "python3.ext4"
     appfs: "compose-post-frontend.ext2"

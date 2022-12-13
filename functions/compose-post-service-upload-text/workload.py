@@ -1,4 +1,5 @@
 import json, os, sys
+from datetime import datetime
 
 def handle(req, syscall):
     """Upload post text with shortened urls to Redis and optionally invoke
@@ -11,6 +12,7 @@ def handle(req, syscall):
     Return:
 
     """
+    begin = datetime.now()
 
     if ('text'      not in req or
         'user_id'   not in req or
@@ -30,4 +32,8 @@ def handle(req, syscall):
         return {"status":  "ComposePostServiceUploadTextError",
                 "message": "Fail to upload the text"}
 
-    return {"status":"success"}
+    end = datetime.now()
+    return {"status":"success",
+            "func":  "post-upload-text",
+            "begin": str(begin),
+            "end":   str(end)}

@@ -2,8 +2,8 @@
 
 USERS=(
     'alice'
-    # 'bob'
-    # 'carol'
+    'bob'
+    'eve'
 )
 SETUP_GATES=(
     'user-service-setup-follow'

@@ -1,4 +1,5 @@
 import json, os, sys
+from datetime import datetime
 import traceback
 
 def handle(req, syscall):
@@ -14,6 +15,7 @@ def handle(req, syscall):
     Return:
 
     """
+    begin = datetime.now()
 
     if ('username'  not in req or
         'user_id'   not in req or
@@ -35,4 +37,8 @@ def handle(req, syscall):
                 "message": "Fail to upload creator",
                 "traceback": traceback.format_exc()}
 
-    return {"status":"success"}
+    end = datetime.now()
+    return {"status":"success",
+            "func":  "post-upload-creator",
+            "begin": str(begin),
+            "end":   str(end)}

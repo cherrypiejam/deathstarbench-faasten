@@ -3,6 +3,7 @@ import json
 import re
 import random
 import string
+from datetime import datetime
 
 HOSTNAME="http://short-u.rl/"
 
@@ -64,6 +65,7 @@ def handle(req, syscall):
         on error, return {"status": "TextServiceUploadTextError", "errors": [errors from
         each function call]}
     """
+    begin = datetime.now()
 
     if ('post_info' not in req or
         'user_id'   not in req or
@@ -103,22 +105,8 @@ def handle(req, syscall):
         return {"status":  "TextServiceUploadTextError",
                 "message": "Fail to invoke functions"}
 
-    return {"status": "success"}
-
-    #  # Call compose-post-service-upload-user-mentions and
-    #  # compose-post-service-upload-text and compose-post-service-upload-urls
-    #  futures = []
-    #  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
-        #  futures.append(executor.submit(upload_text, post_info, user_id, text, syscall))
-        #  futures.append(executor.submit(upload_user_mentions, post_info, user_id, user_mentions, syscall))
-        #  futures.append(executor.submit(upload_urls, post_info, user_id, user_mentions, syscall))
-
-        #  # Results only give if functions are successfully invoked
-        #  results = [f.result() for f in concurrent.futures.as_completed(futures)]
-
-        #  if not all(results):
-            #  return {"status":  "TextServiceUploadTextError",
-                    #  "message": "Fail to invoke functions"}
-
-        #  return {"status": "success"}
-
+    end = datetime.now()
+    return {"status":"success",
+            "func":  "text-upload-text",
+            "begin": str(begin),
+            "end":   str(end)}

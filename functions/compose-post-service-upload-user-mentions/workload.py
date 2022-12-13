@@ -1,4 +1,5 @@
 import json, os, sys
+from datetime import datetime
 
 def handle(req, syscall):
     """Upload user mentions (user_id and username) in the post text to Redis and
@@ -12,6 +13,7 @@ def handle(req, syscall):
     Return:
 
     """
+    begin = datetime.now()
 
     if ('user_mentions' not in req or
         'user_id'       not in req or
@@ -32,4 +34,8 @@ def handle(req, syscall):
         return {"status":  "ComposePostServiceUploadUserMentionsError",
                 "message": "Fail to upload user mentions"}
 
-    return {"status":"success"}
+    end = datetime.now()
+    return {"status":"success",
+            "func":  "post-upload-user-mentions",
+            "begin": str(begin),
+            "end":   str(end)}

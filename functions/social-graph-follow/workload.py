@@ -11,6 +11,8 @@ def handle(req, syscall):
         followee_id
     """
 
+    begin = datetime.now()
+
     # The current design is every followee_id/user_id is a file, and each
     # contains a timestamp. Alternatively, we can make them a directory
     # in a timestamp directory for better indexing.
@@ -53,4 +55,8 @@ def handle(req, syscall):
         return {"status":  "FollowError",
                 "message": "User faild to write"}
 
-    return {"status": "success"}
+    end = datetime.now()
+    return {"status":"success",
+            "func":  "social-graph-follow",
+            "begin": str(begin),
+            "end":   str(end)}
