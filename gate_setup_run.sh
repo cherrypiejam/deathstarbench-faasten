@@ -3,6 +3,8 @@
 USERS=(
     'alice'
     'bob'
+    'carol'
+    'dave'
     'eve'
 )
 SETUP_GATES=(
