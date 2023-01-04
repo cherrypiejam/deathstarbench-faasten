@@ -13,8 +13,8 @@ PIDS=""
 
 
 for user in "${USERS[@]}"; do
-    sfclient --principal $user invoke2 \
-             --server 127.0.0.1:1337 < payloads/payload_$user.jsonl &
+    cat payloads/payload_$user.jsonl | sfclient --principal $user invoke2 \
+             --server 127.0.0.1:1337 > results/concurrent_invoke_$user.txt &
     PIDS="$PIDS $!"
 done
 

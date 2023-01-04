@@ -9,118 +9,118 @@ functions:
     runtimefs: "python3.ext4"
     appfs: "social-graph-follow.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     # cmdline: "console=ttyS0"
   social-graph-unfollow:
     runtimefs: "python3.ext4"
     appfs: "social-graph-unfollow.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     # cmdline: "console=ttyS0"
   compose-post-frontend:
     runtimefs: "python3.ext4"
     appfs: "compose-post-frontend.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     # cmdline: "console=ttyS0"
   text-service-upload-text:
     runtimefs: "python3.ext4"
     appfs: "text-service-upload-text.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     # cmdline: "console=ttyS0"
   compose-post-service-upload-text:
     runtimefs: "python3.ext4"
     appfs: "compose-post-service-upload-text.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     # cmdline: "console=ttyS0"
   compose-post-service-upload-urls:
     runtimefs: "python3.ext4"
     appfs: "compose-post-service-upload-urls.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     # cmdline: "console=ttyS0"
   compose-post-service-upload-user-mentions:
     runtimefs: "python3.ext4"
     appfs: "compose-post-service-upload-user-mentions.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     # cmdline: "console=ttyS0"
   compose-post-service-upload-creator:
     runtimefs: "python3.ext4"
     appfs: "compose-post-service-upload-creator.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     # cmdline: "console=ttyS0"
   compose-post-service-upload-media:
     runtimefs: "python3.ext4"
     appfs: "compose-post-service-upload-media.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     # cmdline: "console=ttyS0"
   media-front-upload-media:
     runtimefs: "python3.ext4"
     appfs: "media-front-upload-media.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     cmdline: "console=ttyS0"
   user-service-setup-follow:
     runtimefs: "python3.ext4"
     appfs: "user-service-setup-follow.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     cmdline: "console=ttyS0"
   user-service-setup-post:
     runtimefs: "python3.ext4"
     appfs: "user-service-setup-post.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     cmdline: "console=ttyS0"
   test_rw:
     runtimefs: "python3.ext4"
     appfs: "test_rw.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     cmdline: "console=ttyS0"
   test_createfaceted:
     runtimefs: "python3.ext4"
     appfs: "test_createfaceted.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     cmdline: "console=ttyS0"
   test_createfaceted2:
     runtimefs: "python3.ext4"
     appfs: "test_createfaceted2.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     cmdline: "console=ttyS0"
   test_delete:
     runtimefs: "python3.ext4"
     appfs: "test_delete.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     cmdline: "console=ttyS0"
   test_gate:
     runtimefs: "python3.ext4"
     appfs: "test_gate.ext2"
     vcpus: 1
-    memory: 128
+    memory: 64
     concurrency_limit: 600
     cmdline: "console=ttyS0"

@@ -10,6 +10,6 @@ USERS=(
 
 for user in "${USERS[@]}"; do
     echo $user
-    ./payloadgen.sh $user
+    ./script/payloadgen.sh $user
 done
 
